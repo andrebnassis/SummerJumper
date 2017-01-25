@@ -1,0 +1,2775 @@
+fileFormatVersion: 2
+guid: a134507318b99634c941b144ef240794
+timeCreated: 1485093984
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: arms..R
+    100004: arms.L
+    100006: boia01
+    100008: boia02
+    100010: cabelo
+    100012: calcanhar.L
+    100014: calcanhar.L_end
+    100016: calcanhar.R
+    100018: calcanhar.R_end
+    100020: eye.L
+    100022: eye.L_end
+    100024: eye.R
+    100026: eye.R_end
+    100028: feet.L
+    100030: feet.L_end
+    100032: feet.R
+    100034: feet.R_end
+    100036: forearm.L
+    100038: forearm.R
+    100040: hair.L
+    100042: hair.L_end
+    100044: hair.R
+    100046: hair.R_end
+    100048: hand.L
+    100050: hand.L_end
+    100052: hand.R
+    100054: hand.R_end
+    100056: head.L
+    100058: hips.L
+    100060: legs.L
+    100062: legs.R
+    100064: legs01.L
+    100066: legs01.R
+    100068: //RootNode
+    100070: menina
+    100072: neck.L
+    100074: olho
+    100076: pato_boia
+    100078: root.L
+    100080: roupa
+    100082: spine.001.L
+    100084: spine.L
+    100086: target.L
+    100088: target.L_end
+    100090: target.R
+    100092: target.R_end
+    400000: Armature
+    400002: arms..R
+    400004: arms.L
+    400006: boia01
+    400008: boia02
+    400010: cabelo
+    400012: calcanhar.L
+    400014: calcanhar.L_end
+    400016: calcanhar.R
+    400018: calcanhar.R_end
+    400020: eye.L
+    400022: eye.L_end
+    400024: eye.R
+    400026: eye.R_end
+    400028: feet.L
+    400030: feet.L_end
+    400032: feet.R
+    400034: feet.R_end
+    400036: forearm.L
+    400038: forearm.R
+    400040: hair.L
+    400042: hair.L_end
+    400044: hair.R
+    400046: hair.R_end
+    400048: hand.L
+    400050: hand.L_end
+    400052: hand.R
+    400054: hand.R_end
+    400056: head.L
+    400058: hips.L
+    400060: legs.L
+    400062: legs.R
+    400064: legs01.L
+    400066: legs01.R
+    400068: //RootNode
+    400070: menina
+    400072: neck.L
+    400074: olho
+    400076: pato_boia
+    400078: root.L
+    400080: roupa
+    400082: spine.001.L
+    400084: spine.L
+    400086: target.L
+    400088: target.L_end
+    400090: target.R
+    400092: target.R_end
+    2300000: boia01
+    2300002: boia02
+    2300004: pato_boia
+    3300000: boia01
+    3300002: boia02
+    3300004: pato_boia
+    4300000: boia01
+    4300002: boia02
+    4300004: pato_boia
+    4300006: roupa
+    4300008: menina
+    4300010: olho
+    4300012: cabelo
+    7400000: Armature|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400002: Armature|dead
+    7400004: Armature|idle
+    7400006: Armature|idle.002
+    7400008: Armature|jump
+    7400010: Armature|jump.001
+    7400012: boia02|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400014: boia01|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400016: roupa|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400018: pato_boia|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400020: menina|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400022: olho|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400024: cabelo|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+    7400026: Armature|idle01
+    7400028: boia02|jump.001
+    7400030: boia01|jump.001
+    7400032: roupa|jump.001
+    7400034: pato_boia|jump.001
+    7400036: menina|jump.001
+    7400038: olho|jump.001
+    7400040: cabelo|jump.001
+    7400042: Armature|load_jump
+    7400044: Armature|high_jump
+    7400046: Armature|up_jump
+    7400048: Armature|down_jump
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: cabelo
+    13700002: menina
+    13700004: olho
+    13700006: roupa
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|down_jump
+      takeName: Armature|jump
+      firstFrame: 24
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|dead
+      takeName: Armature|dead
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle
+      takeName: Armature|idle
+      firstFrame: 0
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle.002
+      takeName: Armature|idle.002
+      firstFrame: 0
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle01
+      takeName: Armature|idle01
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump
+      takeName: Armature|jump
+      firstFrame: 24
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|load_jump
+      takeName: Armature|jump
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|high_jump
+      takeName: Armature|jump
+      firstFrame: 18
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|up_jump
+      takeName: Armature|jump
+      firstFrame: 12
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: boia01|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      takeName: boia01|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: boia01|jump.001
+      takeName: boia01|jump.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: roupa|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      takeName: roupa|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: roupa|jump.001
+      takeName: roupa|jump.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pato_boia|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      takeName: pato_boia|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pato_boia|jump.001
+      takeName: pato_boia|jump.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: menina|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      takeName: menina|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: menina|jump.001
+      takeName: menina|jump.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: olho|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      takeName: olho|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: olho|jump.001
+      takeName: olho|jump.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cabelo|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      takeName: cabelo|Armature_duck|Armature_duck|Armature_catAction.006|Armature_duc
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cabelo|jump.001
+      takeName: cabelo|jump.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/calcanhar.L
+        weight: 1
+      - path: Armature/calcanhar.L/calcanhar.L_end
+        weight: 1
+      - path: Armature/calcanhar.R
+        weight: 1
+      - path: Armature/calcanhar.R/calcanhar.R_end
+        weight: 1
+      - path: Armature/root.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.L/legs01.L/feet.L/feet.L_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R
+        weight: 1
+      - path: Armature/root.L/spine.001.L/hips.L/legs.R/legs01.R/feet.R/feet.R_end
+        weight: 1
+      - path: Armature/root.L/spine.001.L/pato_boia
+        weight: 1
+      - path: Armature/root.L/spine.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/arms.L/hand.L/hand.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.L/boia01
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/arms..R/hand.R/hand.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/forearm.R/boia02
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.L/eye.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/eye.R/eye.R_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.L/hair.L_end
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R
+        weight: 1
+      - path: Armature/root.L/spine.L/neck.L/head.L/hair.R/hair.R_end
+        weight: 1
+      - path: Armature/target.L
+        weight: 1
+      - path: Armature/target.L/target.L_end
+        weight: 1
+      - path: Armature/target.R
+        weight: 1
+      - path: Armature/target.R/target.R_end
+        weight: 1
+      - path: cabelo
+        weight: 1
+      - path: menina
+        weight: 1
+      - path: olho
+        weight: 1
+      - path: roupa
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
