@@ -12,7 +12,7 @@ public class GoToNextScene : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump") || Input.touchCount > 0)
         {
             SceneManager.LoadScene(sceneName);
         }

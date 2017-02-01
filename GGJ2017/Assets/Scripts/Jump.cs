@@ -74,7 +74,7 @@ public class Jump : MonoBehaviour {
                 if(life > 1) { 
                 SetInvunerableState();
                 
-                periodInvulnerable += Time.deltaTime;
+                periodInvulnerable += Time.fixedDeltaTime;
 
                 if (life == 4)
                 {
@@ -122,7 +122,7 @@ public class Jump : MonoBehaviour {
                 }
                 if (MaxAcumulate > Acumulate)
                 {
-                    Acumulate += Time.deltaTime * 10;
+                    Acumulate += Time.fixedDeltaTime * 10;
                 }
                 idle1Time = 0;
             }

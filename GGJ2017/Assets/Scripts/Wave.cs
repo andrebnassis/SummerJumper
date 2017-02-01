@@ -21,7 +21,7 @@ public class Wave : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         Vector2 textureOffset = GetComponentInChildren<MeshRenderer>().material.GetTextureOffset("_NoiseTex");
         var texture2D = new Vector2(textureOffset.x, textureOffset.y + RollingWave * Time.fixedDeltaTime);
         GetComponentInChildren<MeshRenderer>().material.SetTextureOffset("_NoiseTex", texture2D);
@@ -30,7 +30,7 @@ public class Wave : MonoBehaviour {
 
         if ( transform.localScale.x < finalSize.x && !grewUp)
         {
-            transform.localScale = new Vector3(transform.localScale.x + finalSize.x * Time.deltaTime, transform.localScale.y, transform.localScale.z + finalSize.z * Time.deltaTime);
+            transform.localScale = new Vector3(transform.localScale.x + finalSize.x * Time.fixedDeltaTime, transform.localScale.y, transform.localScale.z + finalSize.z * Time.fixedDeltaTime);
         }
         else
             if(transform.localScale.z >= finalSize.z && !grewUp)
@@ -40,7 +40,7 @@ public class Wave : MonoBehaviour {
         else
         if( grewUp )
         {
-            transform.localScale = new Vector3(transform.localScale.x - (finalSize.x / decreaseSizeRate) * Time.deltaTime, transform.localScale.y, transform.localScale.z - (finalSize.z / decreaseSizeRate) * Time.deltaTime);
+            transform.localScale = new Vector3(transform.localScale.x - (finalSize.x / decreaseSizeRate) * Time.fixedDeltaTime, transform.localScale.y, transform.localScale.z - (finalSize.z / decreaseSizeRate) * Time.fixedDeltaTime);
         }
 
         if( transform.localScale.x < 0f )
@@ -51,7 +51,7 @@ public class Wave : MonoBehaviour {
 
         if( reduce )
         {
-            velocidade -= velocidade * Time.deltaTime;
+            velocidade -= velocidade * Time.fixedDeltaTime;
             transform.Translate(Vector3.left * (velocidade/4) * Time.fixedDeltaTime);
         }
     }
