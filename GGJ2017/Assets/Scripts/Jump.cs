@@ -6,9 +6,9 @@ public class Jump : MonoBehaviour {
 
     public AudioFX audioFx;
     public Animator animator;
-    public float MaxAcumulate = 10.0f;
+    public float MaxAcumulate = 500.0f;
     public float Acumulate = 0.0f;
-    public float Height = 20.0f;
+    public float Height = 800.0f;
     public bool HitHead = false;
     private Rigidbody rigdbody;
     private float distToGround;
@@ -122,7 +122,7 @@ public class Jump : MonoBehaviour {
                 }
                 if (MaxAcumulate > Acumulate)
                 {
-                    Acumulate += Time.fixedDeltaTime * 10;
+                    Acumulate += Time.fixedDeltaTime * MaxAcumulate/2;
                 }
                 idle1Time = 0;
             }
@@ -136,7 +136,10 @@ public class Jump : MonoBehaviour {
                 animator.SetBool("LoadJump", false);
                 audioFx.StopCharging();
                 audioFx.PlayJump();
-                rigdbody.AddForce(Vector3.up * 15*(Height+Acumulate));
+                Debug.Log("Force " + (15 * (Height + Acumulate) * Time.fixedDeltaTime));
+                Debug.Log("Mass " + rigdbody.mass);
+                rigdbody.AddForce(Vector3.up * 15*(Height+Acumulate)* Time.fixedDeltaTime);
+                Acumulate = 0;
             }
 
             if (!IsGrounded())
