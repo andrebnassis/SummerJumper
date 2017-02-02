@@ -6,9 +6,9 @@ public class Jump : MonoBehaviour {
 
     public AudioFX audioFx;
     public Animator animator;
-    public float MaxAcumulate = 500.0f;
+    public float MaxAcumulate = 3;
     public float Acumulate = 0.0f;
-    public float Height = 800.0f;
+    public float Height = 4;
     public bool HitHead = false;
     private Rigidbody rigdbody;
     private float distToGround;
@@ -52,11 +52,10 @@ public class Jump : MonoBehaviour {
         rigdbody = GetComponent<Rigidbody>();
         distToGround = GetComponent<Collider>().bounds.extents.y;
     }
-	
-	// Update is called once per frame
-	void FixedUpdate () {
 
-        ////Debug.Log(rigdbody.velocity.y);
+
+	// Update is called once per frame
+	void Update () {
 
         if (!GameManager.GetComponent<GameManagerSettings>().GameOver)
         { 
@@ -64,7 +63,6 @@ public class Jump : MonoBehaviour {
             {
                 animator.SetBool("isGameOver", true);
                 animator.SetBool("IsDead", true);
-
 
                 GameManager.GetComponent<GameManagerSettings>().GameOver = true;
                 return;
@@ -111,46 +109,45 @@ public class Jump : MonoBehaviour {
                 }
             
             }
+            
 
-
-            if( JumpInput(true) && IsGrounded() )
+            if( IsGrounded() )
             {
-                animator.SetBool("LoadJump", true);
-                if (Acumulate <= 0)
+                animator.SetBool("IsGround", true);
+
+                if ( JumpInput(true) )
                 {
-                    audioFx.PlayCharging();
+                    animator.SetBool("LoadJump", true);
+                    if (Acumulate <= 0)
+                    {
+                        audioFx.PlayCharging();
+                    }
+                    if (MaxAcumulate > Acumulate)
+                    {
+                        Acumulate += Time.fixedDeltaTime * MaxAcumulate / 2;
+                    }
+                    idle1Time = 0;
                 }
-                if (MaxAcumulate > Acumulate)
+                else
+                if (JumpInput(false))
                 {
-                    Acumulate += Time.fixedDeltaTime * MaxAcumulate/2;
+                    animator.SetBool("LoadJump", false);
+                    audioFx.StopCharging();
+                    audioFx.PlayJump();
+                    rigdbody.velocity = new Vector3(0, Height + Acumulate, 0);
+                    Acumulate = 0;
                 }
-                idle1Time = 0;
+                else
+                {
+                    ChangeIdle();
+                }
+                
             }
             else
-            {
-                ChangeIdle();
-            }
-        	
-            if( JumpInput(false) && IsGrounded())
-            {
-                animator.SetBool("LoadJump", false);
-                audioFx.StopCharging();
-                audioFx.PlayJump();
-                Debug.Log("Force " + (15 * (Height + Acumulate) * Time.fixedDeltaTime));
-                Debug.Log("Mass " + rigdbody.mass);
-                rigdbody.AddForce(Vector3.up * 15*(Height+Acumulate)* Time.fixedDeltaTime);
-                Acumulate = 0;
-            }
-
-            if (!IsGrounded())
             {
                 animator.SetBool("IsHigh", rigdbody.velocity.y < 1);
                 animator.SetBool("IsGround", false);
                 Acumulate = 0;
-            }
-            else
-            {
-                animator.SetBool("IsGround", true);
             }
             
         }
@@ -164,14 +161,12 @@ public class Jump : MonoBehaviour {
             }
             else
             {
-
-            
-
-            if (animator.GetBool("IsDead")) { 
-            animator.SetBool("IsDead", false);
+                if (animator.GetBool("IsDead"))
+                { 
+                    animator.SetBool("IsDead", false);
+                }
             }
 
-            }
             menina.SetActive(true);
             parteCorpor1.SetActive(true);
             parteCorpor2.SetActive(true);
