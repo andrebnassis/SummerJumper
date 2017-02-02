@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Advertisements;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -35,6 +36,7 @@ public class GameManager : MonoBehaviour {
         else
         {
             if(period >= IdleGameOverInSeconds) {
+                Advertisement.Show();
              GetComponent<DataController>().SubmitNewPlayerScore(Score);
              SceneManager.LoadScene("MenuInicial");
             }
