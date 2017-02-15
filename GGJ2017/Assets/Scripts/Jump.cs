@@ -128,7 +128,7 @@ public class Jump : MonoBehaviour {
                     }
                     idle1Time = 0;
                 }
-                else
+
                 if (JumpInput(false))
                 {
                     animator.SetBool("LoadJump", false);
