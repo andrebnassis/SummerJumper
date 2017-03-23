@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Game.Scripts.Core;
+using System;
 
 public class Player : MonoBehaviour {
 
@@ -13,6 +14,7 @@ public class Player : MonoBehaviour {
 	public float Height = 4;
 	public int life = 4;
 	public GameObject GameManager;
+
 	public float timeInvunerable = 3f;
 	public GameObject menina;
 	public GameObject boiaL;
@@ -33,14 +35,24 @@ public class Player : MonoBehaviour {
 
 	private IGameInput _gameInput;
 
-	public IPlayerHealthState HealthState { get; set; }
+	private IPlayerHealthState _healthState;
+	private GameManager _gameManager;
+
 
 	private void Awake()
 	{
 		_gameInput = new GameInput();
-		HealthState = new NormalPlayerHealthState(this);
+		_healthState = new NormalPlayerHealthState(this);
 	}
 
+	public void ChangeHealthState(IPlayerHealthState newState)
+	{
+		if( _healthState != newState )
+		{
+			newState.SetupState();
+			_healthState = newState;
+		}
+	}
 
 	private void ChangeIdle()
 	{
@@ -62,15 +74,16 @@ public class Player : MonoBehaviour {
 		GameManager = GameObject.Find("GameManager");
 		rigdbody = GetComponent<Rigidbody>();
 		distToGround = GetComponent<Collider>().bounds.extents.y;
+		_gameManager = GameManager.GetComponent<GameManager>();
 	}
 
 
 	// Update is called once per frame
 	void Update () {
 
-		if (HealthState != null)
+		if (_healthState != null)
 		{
-			HealthState.UpdatelHealthState();
+			_healthState.UpdatelHealthState();
 		}
 
 		if (!GameManager.GetComponent<GameManagerSettings>().GameOver)
@@ -141,6 +154,8 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+
+
 	public bool IsGrounded()
 	{
 		return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
@@ -149,5 +164,18 @@ public class Player : MonoBehaviour {
 	public bool IsNearToGround(float distance)
 	{
 		return Physics.Raycast(transform.position, -Vector3.up, distToGround + distance);
+	}
+
+	public void AddScore()
+	{
+		if(_healthState is NormalPlayerHealthState)
+		{
+			_gameManager.AddScore();
+		}
+	}
+
+	public void TakeAHit()
+	{
+		ChangeHealthState(new InvulnerablePlayerHealthState(this));
 	}
 }

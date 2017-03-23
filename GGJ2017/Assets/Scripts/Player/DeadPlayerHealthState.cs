@@ -11,6 +11,11 @@ namespace Game.Scripts.Core
         {
         }
 
+        public override void SetupState()
+        {
+            
+        }
+
         public override void UpdatelHealthState()
         {
             _player.menina.SetActive(true);

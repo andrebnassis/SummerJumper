@@ -16,25 +16,9 @@ namespace Game.Scripts.Core
             
         }
 
-        public override void ChangeState(IPlayerHealthState newState)
+        public override void SetupState()
         {
-            if (newState is InvulnerablePlayerHealthState)
-            {
-                if (_player.life == 4)
-                {
-                    _player.boiaPato.SetActive(false);
-                }
-                else if (_player.life == 3)
-                {
-                    _player.boiaL.SetActive(false);
-                }
-                else if (_player.life == 2)
-                {
-                    _player.boiaR.SetActive(false);
-                }
-            }
-
-            base.ChangeState(newState);
+            
         }
     }
 }

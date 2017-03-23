@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class GainPoint : MonoBehaviour {
 
-    public GameManager gameManager;
     public Player player;
 
 	// Use this for initialization
@@ -20,9 +19,6 @@ public class GainPoint : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (player.HealthState is NormalPlayerHealthState)
-        {
-            gameManager.AddScore();
-        }
+        player.AddScore();
     }
 }

@@ -14,6 +14,22 @@ namespace Game.Scripts.Core
             _periodInvulnerable = 0;
         }
 
+        public override void SetupState()
+        {
+            if (_player.life == 4)
+            {
+                _player.boiaPato.SetActive(false);
+            }
+            else if (_player.life == 3)
+            {
+                _player.boiaL.SetActive(false);
+            }
+            else if (_player.life == 2)
+            {
+                _player.boiaR.SetActive(false);
+            }
+        }
+
         public override void UpdatelHealthState()
         {
             if (_player.life > 1)
@@ -26,22 +42,17 @@ namespace Game.Scripts.Core
                 if (_periodInvulnerable > _player.timeInvunerable)
                 {
                     SetVunerableState();
-                    _player.HealthState.ChangeState( new NormalPlayerHealthState(_player) );
+                    _player.life--;
+                    _player.ChangeHealthState( new NormalPlayerHealthState(_player) );
                     return;
                 }
             }
             else
             {
-                _player.HealthState.ChangeState( new DeadPlayerHealthState(_player) );
+                _player.life--;
+                _player.ChangeHealthState( new DeadPlayerHealthState(_player) );
                 return;
             }
-        }
-
-        public override void ChangeState(IPlayerHealthState newState)
-        {
-            _player.life--;
-
-            base.ChangeState(newState);
         }
 
         private void SetInvunerableState()

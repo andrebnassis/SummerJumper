@@ -7,7 +7,7 @@ namespace Game.Scripts.Core
 {
     public interface IPlayerHealthState
     {
-        void ChangeState(IPlayerHealthState newState);
+        void SetupState();
         void UpdatelHealthState();
     }
 }

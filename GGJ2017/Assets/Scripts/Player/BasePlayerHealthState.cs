@@ -14,11 +14,9 @@ namespace Game.Scripts.Core
             _player = player;
         }
 
+        public abstract void SetupState();
+
         public abstract void UpdatelHealthState();
-        public virtual void ChangeState(IPlayerHealthState newState)
-        {
-            _player.HealthState = newState;
-        }
 
     }
 }

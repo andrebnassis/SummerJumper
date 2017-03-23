@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class HitPlayer : MonoBehaviour {
 
-    public Player player;
+	public Player player;
 
 	// Use this for initialization
 	void Start () {
@@ -17,8 +17,8 @@ public class HitPlayer : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter(Collider other)
-    {
-        player.HealthState.ChangeState( new InvulnerablePlayerHealthState(player) );
-    }
+	private void OnTriggerEnter(Collider other)
+	{
+		player.TakeAHit();
+	}
 }
