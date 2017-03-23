@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿using Game.Scripts.Core;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class HitPlayer : MonoBehaviour {
 
-    public Jump player;
+    public Player player;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +19,6 @@ public class HitPlayer : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        player.HitHead = true;
+        player.HealthState.ChangeState( new InvulnerablePlayerHealthState(player) );
     }
 }

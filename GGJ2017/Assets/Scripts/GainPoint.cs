@@ -5,7 +5,7 @@ using UnityEngine;
 public class GainPoint : MonoBehaviour {
 
     public GameManager gameManager;
-    public Jump player;
+    public Player player;
 
 	// Use this for initialization
 	void Start () {

@@ -16,7 +16,7 @@ public class JumpBarProgress : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        power = player.GetComponent<Jump>().Acumulate;
+        power = player.GetComponent<Player>().Acumulate;
         GetComponent<Image>().color = new Color(1, 1 - power*5/100, 1 - power*5/100, 0.3f);
 
         
