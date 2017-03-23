@@ -13,16 +13,17 @@ namespace Game.Scripts.Core
 
         public override void SetupState()
         {
-            
-        }
-
-        public override void UpdatelHealthState()
-        {
             _player.menina.SetActive(true);
             _player.parteCorpor1.SetActive(true);
             _player.parteCorpor2.SetActive(true);
             _player.parteCorpor3.SetActive(true);
             _player.parteCorpor4.SetActive(true);
+            _player.ChangeActionState(new DeadPlayerActionState(_player));
+        }
+
+        public override void UpdatelHealthState()
+        {
+
         }
 
     }

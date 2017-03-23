@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Game.Scripts.Core
 {
-    public abstract class BasePlayerHealthState : IPlayerHealthState
+    public abstract class BasePlayerHealthState : IPlayerHealthState, IEquatable<BasePlayerHealthState>
     {
         protected Player _player;
         
@@ -18,5 +18,9 @@ namespace Game.Scripts.Core
 
         public abstract void UpdatelHealthState();
 
+        public bool Equals(BasePlayerHealthState other)
+        {
+            return other.GetType().Name.Equals(this.GetType().Name);
+        }
     }
 }
