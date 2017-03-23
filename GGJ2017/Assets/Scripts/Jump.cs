@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.Input;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,6 +30,15 @@ public class Jump : MonoBehaviour {
     public GameObject parteCorpor4;
     private float idle1MaxTime = 5.0f;
     private float idle1Time = 0.0f;
+
+
+    private IGameInput _gameInput;
+
+
+    private void Awake()
+    {
+        _gameInput = new GameInput();
+    }
 
 
     private void ChangeIdle()
@@ -115,7 +125,7 @@ public class Jump : MonoBehaviour {
             {
                 animator.SetBool("IsGround", true);
 
-                if ( JumpInput(true) )
+                if ( _gameInput.HoldJump() )
                 {
                     animator.SetBool("LoadJump", true);
                     if (Acumulate <= 0)
@@ -129,7 +139,7 @@ public class Jump : MonoBehaviour {
                     idle1Time = 0;
                 }
 
-                if (JumpInput(false))
+                if ( _gameInput.ReleaseJump() )
                 {
                     animator.SetBool("LoadJump", false);
                     audioFx.StopCharging();
@@ -173,35 +183,6 @@ public class Jump : MonoBehaviour {
             parteCorpor3.SetActive(true);
             parteCorpor4.SetActive(true);
         }
-    }
-
-    private bool JumpInput(bool hold)
-    {
-        if( hold )
-        {
-            return Input.GetButton("Jump") || TouchDown();
-        }
-
-
-        return Input.GetButtonUp("Jump") || TouchRelease();
-    }
-
-    private bool TouchRelease()
-    {
-        bool b = false;
-        for (int i = 0; i < Input.touches.Length; i++)
-        {
-            b = Input.touches[i].phase == TouchPhase.Ended;
-            if (b)
-                break;
-        }
-
-        return b;
-    }
-
-    private bool TouchDown()
-    {
-        return Input.touchCount > 0;
     }
 
     public bool IsGrounded()
