@@ -11,14 +11,8 @@ public class Player : MonoBehaviour {
 	public float MaxAcumulate = 3;
 	public float Acumulate = 0.0f;
 	public float Height = 4;
-	public bool HitHead = false;
-	private Rigidbody rigdbody;
-	private float distToGround;
 	public int life = 4;
 	public GameObject GameManager;
-	private bool haveTouch = false;
-	private float lastSpeed = 0;
-	public bool isInvulnerable = false;
 	public float timeInvunerable = 3f;
 	public GameObject menina;
 	public GameObject boiaL;
@@ -28,11 +22,17 @@ public class Player : MonoBehaviour {
 	public GameObject parteCorpor2;
 	public GameObject parteCorpor3;
 	public GameObject parteCorpor4;
+
+
+	private bool haveTouch = false;
+	private float lastSpeed = 0;
 	private float idle1MaxTime = 5.0f;
 	private float idle1Time = 0.0f;
-
+	private Rigidbody rigdbody;
+	private float distToGround;
 
 	private IGameInput _gameInput;
+
 	public IPlayerHealthState HealthState { get; set; }
 
 	private void Awake()

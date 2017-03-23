@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Game.Scripts.Core;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,7 +20,7 @@ public class GainPoint : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!player.HitHead && !player.isInvulnerable)
+        if (player.HealthState is NormalPlayerHealthState)
         {
             gameManager.AddScore();
         }
